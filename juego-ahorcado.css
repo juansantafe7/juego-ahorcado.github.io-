@@ -1,0 +1,420 @@
+.invisible{
+
+    display: none;
+
+}
+
+#iniciar-juego{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 202px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+
+#iniciar-juego2{
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+font-size: 26px;
+padding-top: 15px;
+
+}
+
+#agregar-palabra2{
+
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+font-size: 20px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 280px;
+height: 67px;
+left: 579px;
+top: 354px;
+
+}
+
+#agregar-palabra3{
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+#inputAgregarPalabra{
+
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 60px;
+    top: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+
+}
+
+#agregar-palabra{
+
+    
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 60px;
+    top: 200px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#mostrar-palabra{
+
+    
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 60px;
+    top: 300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+
+}
+
+#iniciar-juego3{
+
+    
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 60px;
+    top: 400px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#resultado{
+
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    right: 300px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #bc11e7;
+
+}
+
+#titulo{
+
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 400px;
+    top: 10px;
+    text-align: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+
+}
+
+#pizarra{
+
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    left: 150px;
+    top: 100px;
+
+}
+
+#IngreseSuLetra{
+
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 100px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#evaluarLetra{
+
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 400px;
+    top: 103px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#salidaPalabraConGuiones{
+
+    
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150%;
+
+}
+
+#vida{
+
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #ff1818;
+}
+
+#iniciarJuego{
+
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#letras-usadas{
+
+    position: absolute;
+    left: 350px;
+    bottom: 40px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #022a5a;
+
+}
+
+#dead{
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}
+
+#parca-triste{
+
+    position: absolute;
+    right: 500px;
+    top: 105px;
+
+}
+
+#ganador00{
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+#letra00{
+    background-color: #eee;
+    border: 1px solid grey;
+    font-size: 1.5rem;
+}
+
+#boton00{
+    background-color: steelblue;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+#pizarra{
+    display: inline-block;
+    margin: auto 50%;
+    border: 2px solid steelblue;
+    width: 400px;
+    height: 300px;
+}
+
+/* google fonts.com - box shadow css generator
+reset.css -> archivo corrige
+font-size // font-style
+border: ; //padding: ; // margin: ;
+display: inline-block;
+text-transform: uppercase;
+position: relative // absolute;
+border-radious: 10px;
+a:hover{} -> efecto mouse
+text-decoration: underline;
+a:active{} -> captura clic mouse
+transition: 1s background;
+cursor: pointer;
+:hover{transform:scale(1.2) rotate(70deg);
+float:left;
+.clase:first-child{} // .clase:nth-child() -> selecciona el hijo establecido
+.clase{background: linear-gradient(90 deg, blue 50%, red, green)// radial gradient
+.clase:first-letter{} // :first-line{}
+.clase:before{ content: '[' } // after{content: ']'};
+.clase{witdh:calc(40% -(20px))};
+:hover{opacity:30%};
+box-shadow: 10px 10px #CCCCCC;
+@media screen and(max-width:480px){body{}}
+*/

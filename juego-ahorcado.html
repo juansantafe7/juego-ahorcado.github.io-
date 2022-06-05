@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+<head>
+
+     <meta charset = "UTF-8">
+
+     <title>Juego del ahorcado</title>
+
+     <link rel="stylesheet" type="text/css" href='juego-ahorcado.css'>
+
+     <link rel="stylesheet" type="text/css" href='reset.css'>
+
+</head>
+
+<body>
+
+     <header id="titulo">  
+
+          <h1>Juego del Ahorcado Alura: Juan Cruz Leal</h1>
+
+     </header>
+
+     <div>
+
+          <input type="text" maxlength="1" placeholder="Ingrese su Letra" id="IngreseSuLetra">
+
+     </div>
+     
+
+     <button id='evaluarLetra'>Evaluar letra</button>
+
+     <div>
+
+          <p id="salidaPalabraConGuiones"></p>
+          
+     
+     </div>
+     
+
+     <div id="vida">El numero de vidas que te quedan son: 7</div>
+
+     <div>
+
+          <img src="Imagenes\DEAD.png" class="invisible" id="dead">
+
+          <canvas id="pizarra">      
+
+               Tu navegador no acepta Canvas
+
+          </canvas>
+
+          <div id="letras-usadas"></div>
+
+          <img src="Imagenes\Parca TRISTE.png" class="invisible" id="parca-triste">
+
+     </div>
+
+     <div id="contenedor-letras"></div>
+
+     <div id="ahorcado00"></div>
+
+     <div id="ganador00">
+
+          <p>Victoria</p>
+
+          <p>Enhorabuena</p>
+
+     </div> 
+
+     <div>
+          <div>
+
+            <button id="iniciarJuego" onclick="location.reload()">Reiniciar Juego</button>
+
+            <div id="palabraADescubrir">
+                 
+     </div>
+
+     <script src='variables.js'></script>
+
+     <script src='control-eventos.js'></script>
+
+     <script src='funciones-parte1.js'></script>
+
+     <script src='funciones-parte3.js'></script>
+
+
+
+</body>
+
+</html>
